@@ -7,7 +7,7 @@ export default function App() {
   const [outputText, setOutputText] = useState('Open up App.js to start working')
   return (
     <View style={styles.container}> 
-    {/* view = div component */}
+    {/* view = div compon ent */}
       <Text>{outputText}</Text>
       <Button title="Change Text" onPress={() => setOutputText('The Text has Changed!')}/>
     </View>
